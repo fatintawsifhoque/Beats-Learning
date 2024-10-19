@@ -1,0 +1,164 @@
+* {
+  font-family: poppins;
+  font-weight: 500;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.nav-container {
+  display: flex;
+  align-items: end;
+}
+
+.logo {
+  width: 25%;
+  margin: 19px 0 0 68px;
+}
+
+nav {
+  width: 55%;
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+.btn {
+  position: relative;
+  top: -18px;
+  border-color: transparent;
+  background-color: transparent;
+}
+.btn:hover {
+  background-color: rgba(84, 184, 255, 1);
+  color: white;
+}
+
+.hero-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.hero-left {
+  width: 90px;
+}
+.hero-left-upper,
+.hero-left-lower {
+  height: 50%;
+}
+.lower-img {
+  display: flex;
+  align-items: end;
+}
+.hero-middle {
+  width: 45%;
+}
+.middle-upper,
+.middle-box {
+  display: flex;
+  justify-content: right;
+}
+
+.middle-content h3 {
+  font-size: 20px;
+  color: rgba(47, 43, 113, 1);
+}
+.middle-content h2 {
+  font-weight: 700;
+  font-size: 70px;
+  color: rgba(95, 89, 110, 1);
+  line-height: 81.55px;
+}
+
+.middle-content p {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.middle-content button {
+  width: 197px;
+  height: 56px;
+  background-image: linear-gradient(90deg, #54b8ff -1.36%, #54b8ff 105.62%);
+  color: white;
+  border-color: transparent;
+}
+.middle-content button i {
+  position: relative;
+  left: 20px;
+}
+.hero-right {
+  width: 45%;
+  overflow: hidden;
+  position: relative;
+  left: 50px;
+}
+.hero-right img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.gr-3 {
+  position: absolute;
+  right: -01;
+  height: 130px;
+  width: 75px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.gr-3 img {
+  height: 100%;
+
+  object-fit: cover;
+}
+.gr-4 {
+  position: absolute;
+  right: -1;
+  top: 450px;
+  height: 75px;
+  width: 150px;
+  overflow: hidden;
+}
+.gr-4 img {
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.middle-box {
+  position: relative;
+  height: 350px;
+  top: 30px;
+}
+.middle-box-part1 {
+  position: absolute;
+  top: 0;
+}
+.middle-box-part2 {
+  position: absolute;
+  top: 47.5px;
+}
+.middle-box-part3 {
+  position: absolute;
+  top: 60px;
+  right: 135px;
+}
+.middle-box-part4 {
+  position: absolute;
+  top: 120px;
+}
+.middle-box-part5 {
+  position: absolute;
+  top: 120px;
+  right: 135px;
+}
+
+.lower-img{
+    position: relative;
+    top: 220px;
+}
